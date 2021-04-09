@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atzen Countdown</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 
 <body>
@@ -15,23 +15,24 @@
         <h1 class="ueberschrift-1">Zeit bist du ein offizieller Atze bist:</h1>
         <div class="countdown-container">
             <div class="countdownEL days-container">
-                <p class="big-text" class="days">0</p>
+                <p class="big-text" id="days">0</p>
                 <span>Tage</span>
             </div>
             <div class="countdownEL hours-container">
-                <p class="big-text" class="hours">0</p>
+                <p class="big-text" id="hours">0</p>
                 <span>Stunden</span>
             </div>
             <div class="countdownEL minutes-container">
-                <p class="big-text" class="minutes">0</p>
+                <p class="big-text" id="minutes">0</p>
                 <span>Minuten</span>
             </div>
             <div class="countdownEL seconds-container">
-                <p class="big-text" class="seconds">0</p>
+                <p class="big-text" id="seconds">0</p>
                 <span>Sekunden</span>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>

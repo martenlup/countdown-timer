@@ -1,7 +1,7 @@
 
 body {
     box-sizing: border-box;
-    background-image: url(atze.jpg);
+    background-image: url(https://www.dasdie.de/images/media/image/841/plakatfoto-atze-schroeeder-1-c-mts-live-it_detail.jpg);
     background-position: center;
     background-size: cover;
     min-height: 50vh;
@@ -9,16 +9,17 @@ body {
     margin: 0;
 }
 .body-wrapper {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 50rem;
     margin: auto;
+    border-radius: 3%;
 }
 
 .ueberschrift-1 {
     text-align:center;
     margin-top: 20rem;
     font-size: 2.5rem;
-    color:rgb(255, 235, 235)
+    color:rgb(255, 255, 255)
 }
 
 .countdown-container {
@@ -30,10 +31,12 @@ body {
     font-size: 6rem;
     line-height:1;
     margin: 0 3rem;
+    color: rgb(255, 128, 249);
 }
 .countdown-container span {
     font-size: 1.5rem;
     text-align: center; 
+    color: white;
 }
 
 .countdownEL {
