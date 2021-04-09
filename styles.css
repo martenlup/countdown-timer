@@ -1,7 +1,41 @@
-h1 {
-    color: skyblue;
+
+body {
+    box-sizing: border-box;
+    background-image: url(./clownL.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+.body-wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50rem;
+    margin: auto;
 }
 
-.ueberschrift1 {
+.ueberschrift-1 {
+    text-align:center;
+    margin-top: 20rem;
+    font-size: 2.5rem;
+    color:rgb(255, 235, 235)
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; 
+}
+.big-text {
+    font-size: 6rem;
+    line-height:1;
+    margin: 0 3rem;
+}
+.countdown-container span {
+    font-size: 1.5rem;
+    text-align: center; 
+}
+
+.countdownEL {
     text-align: center;
 }
