@@ -13,7 +13,7 @@ body {
 }
 .countdown {
     background-color: rgba(0, 0, 0, 0.8);
-    width: 50rem;
+    width: 70rem;
     margin: auto;
     border-radius: 3%;
     margin-top: 20rem;
@@ -31,7 +31,7 @@ body {
     margin-top: 2rem; 
 }
 .big-text {
-    font-size: 6rem;
+    font-size: 4rem;
     line-height:1;
     margin: 0 3rem;
     color: rgb(251, 161, 247);
@@ -44,4 +44,9 @@ body {
 
 .countdownEL {
     text-align: center;
+}
+
+
+#zehntel {
+    color: skyblue;
 }
