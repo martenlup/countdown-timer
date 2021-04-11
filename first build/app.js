@@ -26,14 +26,17 @@ function countdown() {
     zehntelEl.innerHTML = formatTime(zehntel);
 }
 
-function formatTime(time) {
-    if (time < 10) {
-        return `0${time}`
-    }
-    else {
-        return time;
-    }
-}
+// function formatTime(time) {
+//     if (time < 10) {
+//         return `0${time}`
+//     }
+//     else {
+//         return time;
+//     }
+// }
 
+function formatTime(time) {
+    return time < 10 ? `0${time}` : time;
+}
 countdown();
-setInterval(countdown, 100);
+setInterval(countdown, 1000);

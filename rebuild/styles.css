@@ -1,0 +1,37 @@
+body {
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background-image: url(../clownL.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.seite1 {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    margin-top: 12rem;
+    background-color:rgba(255, 255, 255, 0.9);
+    width: 50rem;
+}
+.content-container h1 {
+    text-align: center;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.clock{
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.bigtext {
+    font-size: 2rem;
+}
