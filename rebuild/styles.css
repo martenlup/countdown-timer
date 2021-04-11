@@ -1,7 +1,7 @@
 body {
     box-sizing:border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    background-image: url(../clownL.jpg);
+    background-image: url(clownL.jpg);
     background-size: cover;
     background-position: top;
 }
